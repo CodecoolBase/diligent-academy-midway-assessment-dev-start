@@ -57,7 +57,7 @@ Name: Scrambled Egg
 - A new `create` command is available.
 - The command has one argument, the `name` of the recipe.
 - If the `name` is missing, the app should show a meaningful error message to the user.
-- Create a new `CreateRecipeType` from the `RecipeType` type. The new type should reuse the `RecipeType` use the typescript utilities.
+- Create a new `CreateRecipeType` from the `RecipeType` type. `CreateRecipeType` is the same as `RecipeType` without the `id` property. The new type should reuse the `RecipeType` use the typescript utilities.
 - The app should generate a new unique numeric ID for the recipe.
 - If the recipe is created successfully, its details should be displayed
   the same way like in the `details` command.
@@ -102,7 +102,7 @@ Difficulty: hard
 - Create a command `update-name`.
 - It should have two arguments, the `id` of the recipe and the `newName`.
 - If the ID is not numeric or missing or the new name is missing show a meaningful error message to the user.
-- Create a new `UpdateRecipeType` from the `RecipeType` type. The new type should reuse the `RecipeType` use the typescript utilities.
+- Create a new `UpdateRecipeType` from the `RecipeType` type. `UpdateRecipeType` is the same as the `RecipeType` without the `id`, and all other properties are optional. The new type should reuse the `RecipeType` use the typescript utilities.
 - If the recipe with the given ID is not exists it should show a meaningful error message to the user.
 - If the update is successful, show the details of the recipe a same way in the details command.
 
