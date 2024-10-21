@@ -1,4 +1,4 @@
-import { Store } from "../stores/store.type"
+import { Store } from "./stores/store.type"
 
 export type RecipeType = {
   id: number

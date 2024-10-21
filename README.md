@@ -26,7 +26,9 @@ them delete the `data.json` from the repo root.
 
 You can use arguments containing spaces by putting them into quotation marks, e.g.:
 
-`npm start -- create "Duck in orange sauce"` (This command is not a working example right now.)
+`npm start -- create "Duck in orange sauce"` 
+
+(This command is not a working example right now.)
 
 ## Tasks & Rules
 

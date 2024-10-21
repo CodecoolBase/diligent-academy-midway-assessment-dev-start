@@ -1,4 +1,4 @@
-import { Recipe, RecipeType } from "./recipes/recipe";
+import { Recipe, RecipeType } from "./recipe";
 import { Store } from "./stores/store.type";
 
 export async function list(store: Store<RecipeType[]>, args: string[]) {

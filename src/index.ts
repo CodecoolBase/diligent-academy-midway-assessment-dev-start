@@ -1,5 +1,5 @@
 import { createApp } from './app';
-import { RecipeType } from './recipes/recipe';
+import { RecipeType } from './recipe';
 import { FileStore } from './stores/file.store';
 import { join } from 'node:path';
 
